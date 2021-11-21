@@ -77,8 +77,23 @@ console.log('last item in array is now: ', getLast(foods));
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
-  
+  for (arrayElements of array) {
+    if (value === arrayElements) {
+      return true;
+    }
+
+  }
+  return false;
 }
+
+let list = [1,2,3,4,5,6,7,8,9,0];
+let query = 1;
+console.log(`let's find ${query} in the list: `, find(query, list));
+
+query = 'a';
+console.log(`let's find ${query} in the list: `, find(query, list));
+
+
 
 // ----------------------
 // Stretch Goals
