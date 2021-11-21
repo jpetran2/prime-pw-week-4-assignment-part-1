@@ -31,10 +31,13 @@ let secondAddition = 7;
 console.log(`adding ${firstAddition} + ${secondAddition} =`, addNumbers ( firstAddition , secondAddition ));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiplyThree( firstNumber, secondNumber, thirdNumber ){
+return firstNumber * secondNumber * thirdNumber;
 }
-
+let a = 3;
+let b = 4;
+let c = 5;
+console.log(`multiplying ${a} x ${b} x ${c} =`, multiplyThree(a,b,c));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
