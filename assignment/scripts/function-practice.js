@@ -26,9 +26,9 @@ function addNumbers( firstNumber , secondNumber ) {
   console.log('in addNumbers');
   return firstNumber + secondNumber;
 }
-let firstNumber = 4;
-let secondNumber = 7;
-console.log(`adding ${firstNumber} + ${secondNumber} =`, addNumbers ( firstNumber , secondNumber ));
+let firstAddition = 4;
+let secondAddition = 7;
+console.log(`adding ${firstAddition} + ${secondAddition} =`, addNumbers ( firstAddition , secondAddition ));
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree( ){
